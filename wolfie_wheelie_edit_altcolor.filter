@@ -360,6 +360,9 @@ ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 //GG UNIQUES
 ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%RED%*%GREEN%* %PURPLE%%NAME%%GREEN% *%RED%*
 
+//Rainbow Facet
+ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w %NAME% %PURPLE%r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
+
 //GG only when ETH
 ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %RED%*%GREEN%* %TAN%[%GRAY%ETH%TAN%] %BORDER-68%%PURPLE%%NAME%%GREEN% *%RED%*
 
@@ -400,6 +403,7 @@ ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 
 //Sets worth notifying
 ItemDisplay[((ARMOR OR WEAPON) (ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
+ItemDisplay[SET !ID amu] %GREEN%*%RED%* %NAME% %RED%*%GREEN%*
 
 // Set Items Master
 ItemDisplay[SET CLVL<70 !ID]: %NAME%%MAP-84% // Notification and map ping for all sets until level 59
