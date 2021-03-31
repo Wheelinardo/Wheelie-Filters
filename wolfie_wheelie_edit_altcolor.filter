@@ -258,6 +258,19 @@ ItemDisplay[NMAG !RW ETH SOCK>0]: %GRAY%%NAME%[%SOCKETS%]%CONTINUE% // No space 
 //ItemDisplay[!ETH SOCK=0 (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME% [i%ILVL%]%CONTINUE% // Add ilvl to the end of items' names (eg "Quilted Armor [i99]")
 //ItemDisplay[!RW (ETH OR SOCK>0) (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
 
+//Display enhanced damage or defense on superior items
+ItemDisplay[NMAG !INF !RW ED=5]: %NAME%%TAN% [%WHITE%5%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=6]: %NAME%%TAN% [%WHITE%6%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=7]: %NAME%%TAN% [%WHITE%7%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=8]: %NAME%%TAN% [%WHITE%8%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=9]: %NAME%%TAN% [%WHITE%9%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=10]: %NAME%%TAN% [%WHITE%10%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=11]: %NAME%%TAN% [%WHITE%11%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=12]: %NAME%%TAN% [%WHITE%12%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=13]: %NAME%%TAN% [%WHITE%13%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=14]: %NAME%%TAN% [%WHITE%14%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=15]: %NAME%%TAN% [%WHITE%15%%TAN%]
+
 // Vendor Items
 ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=10 amu]: %NAME% %GREEN%(2/10)%BLUE% // 2 class skills, 10 FCR amulet
 ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=20 amu]: %NAME% %GREEN%(2/20)%BLUE% // 2 class skills, 20 FCR amulet
@@ -549,7 +562,7 @@ ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit
 ItemDisplay[MAG ILVL>71 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
 ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
 ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR 9ls OR 7ls OR 9gs OR 7gs OR 9fb OR 7fb OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
-ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %GREEN%* %NAME% %ORANGE%[C]%BLUE%%DOT-97%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Throwing Weapon
+ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %GREEN%* %GRAY%%NAME% %ORANGE%[C]%BLUE%%DOT-97%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Throwing Weapon
 ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Tir%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 
 // Magic Items
