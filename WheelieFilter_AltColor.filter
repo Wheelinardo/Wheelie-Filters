@@ -450,6 +450,8 @@ ItemDisplay[SET CLVL<70 !ID]: %NAME%%MAP-84% // Notification and map ping for al
 ItemDisplay[SET CLVL>69 !ID]: %NAME% // At level 60+, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets at level 60+
 
 // Rare Items
+ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
+ItemDisplay[RARE !ID cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
 ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
@@ -634,6 +636,8 @@ ItemDisplay[MAG ILVL<72 CLVL<75 WAND]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sha
 ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 
 // Magic Items
+ItemDisplay[MAG !ID aqv]: %NAME% // Shows Magic Arrow quivers
+ItemDisplay[MAG !ID cqv]: %NAME% // Shows Magic Bolt quivers
 ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
 ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97%// Large Charms
