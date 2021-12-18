@@ -12,7 +12,7 @@
 //Color Changes
 ItemDisplay[UNI !ID]: %GOLD%%NAME%%CONTINUE%
 ItemDisplay[!ID (cm1 OR cm2 OR cm3)]: %BLUE%%NAME%
-ItemDisplay[!ID SET]: %GREEN%%NAME%
+ItemDisplay[!ID SET]: %GREEN%%NAME% %CONTINUE% 
 
 // Quest Items
 ItemDisplay[bks]: %NAME%%MAP-58%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
@@ -135,63 +135,63 @@ ItemDisplay[GEM=3 DIFF>1]: // Hide all Normal gems past Nightmare difficulty
 ItemDisplay[gcv]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst%WHITE%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
 ItemDisplay[gfv]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst%WHITE%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
 ItemDisplay[gsv]: %PURPLE%+%PURPLE%Amethyst%WHITE%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
-ItemDisplay[gzv]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst%WHITE%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
-ItemDisplay[gzvs]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst x%QTY%%WHITE%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst%NL%%NL%%WHITE%Shields: +24 Defense%NL%Armor/Helms: +8 Strength%NL%Weapons: +100 Attack Rating%NL%} // Stacked Flawless Amethyst
-ItemDisplay[gpv]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%Used in Caster crafting} // Flawless Amethyst
-ItemDisplay[gpvs]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
+ItemDisplay[gzv]:  %PURPLE%+%WHITE%F%PURPLE%+ Amethyst%WHITE%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
+ItemDisplay[gzvs]:  %PURPLE%+%WHITE%F%PURPLE%+ Amethyst x%QTY%%WHITE%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst%NL%%NL%%WHITE%Shields: +24 Defense%NL%Armor/Helms: +8 Strength%NL%Weapons: +100 Attack Rating%NL%} // Stacked Flawless Amethyst
+ItemDisplay[gpv]:  %PURPLE%*%WHITE%Perf%PURPLE%* Amethyst%WHITE%%DOT-20%{%TAN%Used in Caster crafting} // Flawless Amethyst
+ItemDisplay[gpvs]:  %PURPLE%*%WHITE%PERF%PURPLE%* Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
 
 ItemDisplay[gcw]: %WHITE%+%WHITE%Chipped %WHITE%Diamond%WHITE%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
 ItemDisplay[gfw]: %WHITE%+%WHITE%Flawed %WHITE%Diamond%WHITE%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
 ItemDisplay[gsw]: %WHITE%+%WHITE%Diamond%WHITE%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
-ItemDisplay[glw]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[glws]: %WHITE%+%WHITE%Flawless %WHITE%Diamond x%QTY%%WHITE%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%%NL%%WHITE%Shield: Res +14%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg to Undead%NL%} // Stacked Flawless Diamond
-ItemDisplay[gpw]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE%%DOT-20% // Perfect Diamond
-ItemDisplay[gpws]: %WHITE%+%WHITE%Perfect %WHITE%Diamond x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: All Resist +19%NL%Armor/Helms: +100 Attack Rating%NL%Weapons: +68% Damage to Undead%NL%} // Stacked Perfect Diamond
+ItemDisplay[glw]: %WHITE%+%WHITE%F+ %WHITE%Diamond%WHITE%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
+ItemDisplay[glws]: %WHITE%+%WHITE%F+ %WHITE%Diamond x%QTY%%WHITE%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%%NL%%WHITE%Shield: Res +14%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg to Undead%NL%} // Stacked Flawless Diamond
+ItemDisplay[gpw]: %WHITE%*%WHITE%Perf* %WHITE%Diamond%WHITE%%DOT-20% // Perfect Diamond
+ItemDisplay[gpws]: %WHITE%*%WHITE%Perf* %WHITE%Diamond x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: All Resist +19%NL%Armor/Helms: +100 Attack Rating%NL%Weapons: +68% Damage to Undead%NL%} // Stacked Perfect Diamond
 
 ItemDisplay[gcg]: %GREEN%+%WHITE%Chipped %GREEN%Emerald%WHITE%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
 ItemDisplay[gfg]: %GREEN%+%WHITE%Flawed %GREEN%Emerald%WHITE%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
 ItemDisplay[gsg]: %GREEN%+%GREEN%Emerald%WHITE%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
-ItemDisplay[glg]: %GREEN%+%WHITE%Flawless %GREEN%Emerald%WHITE%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
-ItemDisplay[glgs]: %GREEN%+%WHITE%Flawless %GREEN%Emerald x%QTY%%WHITE%{%TAN%3 Flawless Emerald + Key = Perfect Emerald%NL%%NL%%WHITE%Shields: Psn Res +28%%NL%Armor/Helms: +8 Dexterity%NL%Weapons: +60 psn over 6 secs%NL%} // Stacked Flawless Emerald
-ItemDisplay[gpg]: %GREEN%+%WHITE%Perfect %GREEN%Emerald%WHITE%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
-ItemDisplay[gpgs]: %GREEN%+%WHITE%Perfect %GREEN%Emerald x%QTY%%WHITE%%DOT-20%{%TAN%Used in Safety crafting%NL%%NL%%WHITE%Shields: Poison Resist +40%%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +100 poison damage over 7 secs%NL%} // Stacked Perfect Emerald
+ItemDisplay[glg]: %GREEN%+%WHITE%F%GREEN%+ Emerald%WHITE%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
+ItemDisplay[glgs]: %GREEN%+%WHITE%F%GREEN%+ Emerald x%QTY%%WHITE%{%TAN%3 Flawless Emerald + Key = Perfect Emerald%NL%%NL%%WHITE%Shields: Psn Res +28%%NL%Armor/Helms: +8 Dexterity%NL%Weapons: +60 psn over 6 secs%NL%} // Stacked Flawless Emerald
+ItemDisplay[gpg]: %GREEN%*%WHITE%Perf%GREEN%* Emerald%WHITE%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
+ItemDisplay[gpgs]: %GREEN%*%WHITE%Perf%GREEN%* Emerald x%QTY%%WHITE%%DOT-20%{%TAN%Used in Safety crafting%NL%%NL%%WHITE%Shields: Poison Resist +40%%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +100 poison damage over 7 secs%NL%} // Stacked Perfect Emerald
 
 ItemDisplay[gcr]: %RED%+%WHITE%Chipped %RED%Ruby%WHITE%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
 ItemDisplay[gfr]: %RED%+%WHITE%Flawed %RED%Ruby%WHITE%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
 ItemDisplay[gsr]: %RED%+%RED%Ruby%WHITE%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
-ItemDisplay[glr]: %RED%+%WHITE%Flawless %RED%Ruby%WHITE%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
-ItemDisplay[glrs]: %RED%+%WHITE%Flawless %RED%Ruby x%QTY%%WHITE%{%TAN%3 Flawless Ruby + Key = Perfect Ruby%NL%%NL%%WHITE%Shields: Fire Resist +28%%NL%Armor/Helms: +31 Life%NL%Weapons: Adds 10-16 fire damage%NL%} // Stacked Flawless Ruby
-ItemDisplay[gpr]: %RED%+%WHITE%Perfect %RED%Ruby%WHITE%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
-ItemDisplay[gprs]: %RED%+%WHITE%Perfect %RED%Ruby x%QTY%%WHITE%%DOT-20%{%TAN%Used in Blood crafting%NL%%NL%%WHITE%Shields: Fire Resist +40%%NL%Armor/Helms: +38 Life%NL%Weapons: Adds 15-20 fire damage%NL%} // Stacked Perfect Ruby
+ItemDisplay[glr]: %RED%+%WHITE%F%RED%+ Ruby%WHITE%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
+ItemDisplay[glrs]: %RED%+%WHITE%F%RED%+ Ruby x%QTY%%WHITE%{%TAN%3 Flawless Ruby + Key = Perfect Ruby%NL%%NL%%WHITE%Shields: Fire Resist +28%%NL%Armor/Helms: +31 Life%NL%Weapons: Adds 10-16 fire damage%NL%} // Stacked Flawless Ruby
+ItemDisplay[gpr]: %RED%*%WHITE%Perf%RED%* Ruby%WHITE%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
+ItemDisplay[gprs]: %RED%*%WHITE%Perf%RED%* Ruby x%QTY%%WHITE%%DOT-20%{%TAN%Used in Blood crafting%NL%%NL%%WHITE%Shields: Fire Resist +40%%NL%Armor/Helms: +38 Life%NL%Weapons: Adds 15-20 fire damage%NL%} // Stacked Perfect Ruby
 
 ItemDisplay[gcb]: %BLUE%+%WHITE%Chipped %BLUE%Sapphire%WHITE%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
 ItemDisplay[gfb]: %BLUE%+%WHITE%Flawed %BLUE%Sapphire%WHITE%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
 ItemDisplay[gsb]: %BLUE%+%BLUE%Sapphire%WHITE%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
-ItemDisplay[glb]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire%WHITE%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
-ItemDisplay[glbs]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire x%QTY%%WHITE%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire%NL%%NL%%WHITE%Shields: Cold Res +28%%NL%Armor/Helms: +31 Mana%NL%Weapons: Adds 6-10 cold dmg%NL%} // Stacked Flawless Sapphire
-ItemDisplay[gpb]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
-ItemDisplay[gpbs]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire x%QTY%%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting%NL%%NL%%WHITE%Shields: Cold Resist +40%%NL%Armor/Helms: +38 Mana%NL%Weapons: Adds 10-14 cold damage%NL%} // Stacked Perfect Sapphire
+ItemDisplay[glb]: %BLUE%+%WHITE%F%BLUE%+ Sapphire%WHITE%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
+ItemDisplay[glbs]: %BLUE%+%WHITE%F%BLUE%+ Sapphire x%QTY%%WHITE%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire%NL%%NL%%WHITE%Shields: Cold Res +28%%NL%Armor/Helms: +31 Mana%NL%Weapons: Adds 6-10 cold dmg%NL%} // Stacked Flawless Sapphire
+ItemDisplay[gpb]: %BLUE%*%WHITE%Perf%BLUE%* Sapphire%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
+ItemDisplay[gpbs]: %BLUE%*%WHITE%Perf%BLUE%* Sapphire x%QTY%%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting%NL%%NL%%WHITE%Shields: Cold Resist +40%%NL%Armor/Helms: +38 Mana%NL%Weapons: Adds 10-14 cold damage%NL%} // Stacked Perfect Sapphire
 
 ItemDisplay[skc]: %GRAY%+%WHITE%Chipped %GRAY%Skull%WHITE%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
 ItemDisplay[skf]: %GRAY%+%WHITE%Flawed %GRAY%Skull%WHITE%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
 ItemDisplay[sku]: %GRAY%+%GRAY%Skull%WHITE%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
-ItemDisplay[skl]: %GRAY%+%WHITE%Flawless %GRAY%Skull%WHITE%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
-ItemDisplay[skls]: %GRAY%+%WHITE%Flawless %GRAY%Skull x%QTY%%WHITE%{%TAN%3 Flawless Skull + Key = Perfect Skull%NL%%NL%%WHITE%Shield: ATDO 16%NL%Armor/Helm: Mana Reg 12%, Rep Life +4%NL%Wep: 3% Life & Mana steal%NL%} // Stacked Flawless Skull
-ItemDisplay[skz]: %GRAY%+%WHITE%Perfect %GRAY%Skull%WHITE%%DOT-20% // Perfect Skull
-ItemDisplay[skzs]: %GRAY%+%WHITE%Perfect %GRAY%Skull x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
+ItemDisplay[skl]: %GRAY%+%WHITE%F%GRAY%+ Skull%WHITE%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
+ItemDisplay[skls]: %GRAY%+%WHITE%F%GRAY%+ Skull x%QTY%%WHITE%{%TAN%3 Flawless Skull + Key = Perfect Skull%NL%%NL%%WHITE%Shield: ATDO 16%NL%Armor/Helm: Mana Reg 12%, Rep Life +4%NL%Wep: 3% Life & Mana steal%NL%} // Stacked Flawless Skull
+ItemDisplay[skz]: %GRAY%*%WHITE%Perf%GRAY%* Skull%WHITE%%DOT-20% // Perfect Skull
+ItemDisplay[skzs]: %GRAY%*%WHITE%Perf%GRAY%* Skull x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
 
 ItemDisplay[gcy]: %YELLOW%+%WHITE%Chipped %YELLOW%Topaz%WHITE%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
 ItemDisplay[gfy]: %YELLOW%+%WHITE%Flawed %YELLOW%Topaz%WHITE%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
 ItemDisplay[gsy]: %YELLOW%+%YELLOW%Topaz%WHITE%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
-ItemDisplay[gly]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz%WHITE%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
-ItemDisplay[glys]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz x%QTY%%WHITE%{%TAN%3 Flawless Topaz + Key = Perfect Topaz%NL%%NL%%WHITE%Shields: Light Res +28%%NL%Armor/Helms: 20% Magic Find%NL%Weps: Add 1-30 lightning dmg%NL%} // Stacked Flawless Topaz
-ItemDisplay[gpy]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE%%DOT-20% // Perfect Topaz
-ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
+ItemDisplay[gly]: %YELLOW%+%WHITE%F%YELLOW%+ Topaz%WHITE%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
+ItemDisplay[glys]: %YELLOW%+%WHITE%F%YELLOW%+ Topaz x%QTY%%WHITE%{%TAN%3 Flawless Topaz + Key = Perfect Topaz%NL%%NL%%WHITE%Shields: Light Res +28%%NL%Armor/Helms: 20% Magic Find%NL%Weps: Add 1-30 lightning dmg%NL%} // Stacked Flawless Topaz
+ItemDisplay[gpy]: %YELLOW%*%WHITE%Perf%YELLOW%* Topaz%WHITE%%DOT-20% // Perfect Topaz
+ItemDisplay[gpys]: %YELLOW%*%WHITE%Perf%YELLOW%* Topaz x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
 
 // Runes
 ItemDisplay[RUNE<10]: %DARK_GREEN%%RUNENAME% %DARK_GREEN%(%RUNENUM%)%CONTINUE% // El-Ort
-ItemDisplay[RUNE>9 RUNE<21]: %ORANGE%%RUNENAME% %ORANGE%(%RUNENUM%)%CONTINUE% // Thul-Mal
-ItemDisplay[RUNE>20]: %GREEN%* %RED%%RUNENAME% %RED%(%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE>9 RUNE<21]: %ORANGE%%RUNENAME% %ORANGE%(%RUNENUM%)%CONTINUE% // Thul-Lem
+ItemDisplay[RUNE>20]: %GREEN%* %RED%%RUNENAME%%GREEN% * %RED%(%RUNENUM%)%BORDER-50%%CONTINUE% // Pul-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 ItemDisplay[r01]: %NAME%{%TAN%3 El + Key = Eld%NL%} // El Rune
 ItemDisplay[r01s]: %NAME%{%TAN%3 El + Key = Eld%NL%%NL%%WHITE%All: +1 Light Radius%NL%Shields: +15 Defense%NL%Armor/Helms: +15 Defense%NL%Weapons: +50 Attack Rating%NL%} // El Rune
@@ -274,17 +274,17 @@ ItemDisplay[NMAG !RW ETH SOCK>0]: %GRAY%%NAME%[%SOCKETS%]%CONTINUE% // No space 
 //ItemDisplay[!RW (ETH OR SOCK>0) (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
 
 //Display enhanced damage or defense on superior items
-ItemDisplay[NMAG !INF !RW ED=5 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%5%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=6 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%6%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=7 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%7%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=8 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%8%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=9 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%9%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=10 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%10%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=11 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%11%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=12 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%12%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=13 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%13%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=14 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%14%%TAN%]
-ItemDisplay[NMAG !INF !RW ED=15 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%15%%TAN%]
+ItemDisplay[NMAG !INF !RW ED=5 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%5%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=6 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%6%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=7 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%7%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=8 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%8%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=9 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%9%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=10 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%10%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=11 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%11%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=12 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%12%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=13 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%13%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=14 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%14%%TAN%] %CONTINUE%
+ItemDisplay[NMAG !INF !RW ED=15 (EXC OR ELT) (EQ2 OR WEAPON)]: %NAME%%TAN% [%WHITE%15%%TAN%] %CONTINUE%
 
 
 // Vendor Items
@@ -292,96 +292,92 @@ ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 
 ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=20 amu]: %NAME% %GREEN%(2/20)%BLUE% // 2 class skills, 20 FCR amulet
 ItemDisplay[MAG (TABSK1>2 OR TABSK8>2 OR TABSK9>2 OR TABSK10>2 OR TABSK16>2 OR TABSK17>2 OR TABSK18>2 OR TABSK24>2 OR TABSK25>2 OR TABSK26>2 OR TABSK32>2 OR TABSK34>2 OR TABSK40>2 OR TABSK41>2 OR TABSK42>2 OR TABSK48>2 OR TABSK49>2 OR TABSK50>2) FCR>9 amu]: %NAME% %GREEN%(3/10)%BLUE% // 3 tab skills, 10 FCR amulet
 ItemDisplay[MAG (TABSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR TABSK16>1 OR TABSK17>1 OR TABSK18>1 OR TABSK24>1 OR TABSK25>1 OR TABSK26>1 OR TABSK32>1 OR TABSK34>1 OR TABSK40>1 OR TABSK41>1 OR TABSK42>1 OR TABSK48>1 OR TABSK49>1 OR TABSK50>1) FCR>9 amu]: %NAME% %GREEN%(2/10)%BLUE% // 2 tab skills, 10 FCR amulet
-ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>19 CIRC]: %NAME% %GREEN%(2/20)%BLUE% // +2 class skills, +20 FCR circlet
+ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>19 CIRC]: %NAME% %GREEN%* (2/20)%BLUE% // +2 class skills, +20 FCR circlet
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE% // +2 Amazon, +3 Javelin Skills Javelin
-ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills Javelin
+ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%* (+6 Jav)%BLUE% // +6 Javelin Skills Javelin
 ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
 ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
 ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
-ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Assassin, +3 Tiger Strike katar
-ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +2 Assassin, +3 Cobra Strike katar
-ItemDisplay[MAG (CLSK6>1 AND SK269>2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +2 Assassin, +3 Claws of Thunder katar
-ItemDisplay[MAG (CLSK6>1 AND SK275>2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +2 Assassin, +3 Dragon Flight katar
-ItemDisplay[MAG (CLSK6>1 AND SK280>2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +2 Assassin, +3 Phoenix Strike katar
-ItemDisplay[MAG (CLSK6>1 AND SK252>2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +2 Assassin, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Assassin, +3 Psychic Hammer katar
-ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Assassin, +3 Mind Blast katar
-ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Assassin, +3 Venom katar
-ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Assassin, +3 Wake of Fire katar
-ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Assassin, +3 Death Sentry katar
-ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Assassin, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Assassin, +3 Lightning Sentry katar
-ItemDisplay[MAG (TABSK50=2 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Martial Arts, +3 Tiger Strike katar
-ItemDisplay[MAG (TABSK50=2 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +2 Martial Arts, +3 Cobra Strike katar
-ItemDisplay[MAG (TABSK50=2 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +2 Martial Arts, +3 Claws of Thunder katar
-ItemDisplay[MAG (TABSK50=2 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +2 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=2 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +2 Martial Arts, +3 Phoenix Strike katar
-ItemDisplay[MAG (TABSK49=2 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG (TABSK49=2 AND SK253=3) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
-ItemDisplay[MAG (TABSK49=2 AND SK273=3) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Shadow Disciplines, +3 Mind Blast katar
-ItemDisplay[MAG (TABSK49=2 AND SK278=3) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Trap, +3 Wake of Fire katar
-ItemDisplay[MAG (TABSK48=2 AND SK276=3) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Trap, +3 Death Sentry katar
-ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Trap, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG (TABSK48=2 AND SK366=3) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Trap, +3 Lightning Sentry katar
-ItemDisplay[MAG (TABSK50=3 AND SK254=2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +3 Martial Arts, +2 Tiger Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK265=2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +3 Martial Arts, +2 Cobra Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK269=2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +3 Martial Arts, +2 Claws of Thunder katar
-ItemDisplay[MAG (TABSK50=3 AND SK275=2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +3 Martial Arts, +2 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=3 AND SK280=2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +3 Martial Arts, +2 Phoenix Strike katar
-ItemDisplay[MAG (TABSK49=3 AND SK252=2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
-ItemDisplay[MAG (TABSK49=3 AND SK253=2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
-ItemDisplay[MAG (TABSK49=3 AND SK273=2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +3 Shadow Disciplines, +2 Mind Blast katar
-ItemDisplay[MAG (TABSK49=3 AND SK278=2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +3 Shadow Disciplines, +2 Venom katar
-ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +3 Trap, +2 Wake of Fire katar
-ItemDisplay[MAG (TABSK48=3 AND SK276=2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +3 Trap, +2 Death Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +3 Trap, +2 Chain Lightning Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK366=2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +3 Trap, +2 Lightning Sentry katar
-ItemDisplay[MAG (TABSK50=3 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +3 Martial Arts, +3 Tiger Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +3 Martial Arts, +3 Cobra Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +3 Martial Arts, +3 Claws of Thunder katar
-ItemDisplay[MAG (TABSK50=3 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +3 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=3 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +3 Martial Arts, +3 Phoenix Strike katar
-ItemDisplay[MAG (TABSK49=3 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG (TABSK49=3 AND SK253=3) SIN]: %NAME% %GREEN%(+6 PH)%BLUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
-ItemDisplay[MAG (TABSK49=3 AND SK273=3) SIN]: %NAME% %GREEN%(+6 MB)%BLUE% // +3 Shadow Disciplines, +3 Mind Blast katar
-ItemDisplay[MAG (TABSK49=3 AND SK278=3) SIN]: %NAME% %GREEN%(+6 Ven)%BLUE% // +3 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE% // +3 Trap, +3 Wake of Fire katar
-ItemDisplay[MAG (TABSK48=3 AND SK276=3) SIN]: %NAME% %GREEN%(+6 DS)%BLUE% // +3 Trap, +3 Death Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE% // +3 Trap, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK366=3) SIN]: %NAME% %GREEN%(+6 LS)%BLUE% // +3 Trap, +3 Lightning Sentry katar
-ItemDisplay[MAG (CLSK4>1 AND SK149>2) BAR]: %NAME% %GREEN%(+2/3 BO)%BLUE% // +2 Barbarian, +3 Battle Orders Barb helm
-ItemDisplay[MAG (CLSK4>1 AND SK154>2) BAR]:%GREEN% * *  %BLUE%%NAME% %GREEN%(+2/3 Warcry)%BLUE% // +2 Barbarian, +3 Warcry Barb helm
-ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK245>2) DRU]: %NAME% %GREEN%(2/3 Tornado)%BLUE% // +2 Druid/Tornado, +3 Tornado Druid Pelt
-ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK234>2) DRU]: %NAME% %GREEN%(2/3 Fissure)%BLUE% // +2 Druid/Fissure, +3 Fissure Druid Pelt
-ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK229>2) DRU]: %NAME% %GREEN%(2/3 Molten)%BLUE% // +2 Druid/Molten Boulder, +3 Molten Boulder Druid Pelt
-ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK237>2) DRU]: %NAME% %GREEN%(2/3 Dire Wolf)%BLUE% // +2 Druid/Dire Wolf, +3 Dire Wolf Druid Pelt
-ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK247>2) DRU]: %NAME% %GREEN%(2/3 Grizzly)%BLUE% // +2 Druid/Grizzly, +3 Grizzly Druid Pelt
+ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%* (+5 TS)%BLUE% // +2 Assassin, +3 Tiger Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%* (+5 CS)%BLUE% // +2 Assassin, +3 Cobra Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK269>2) SIN]: %NAME% %GREEN%* (+5 CoT)%BLUE% // +2 Assassin, +3 Claws of Thunder katar
+ItemDisplay[MAG (CLSK6>1 AND SK275>2) SIN]: %NAME% %GREEN%* (+5 DF)%BLUE% // +2 Assassin, +3 Dragon Flight katar
+ItemDisplay[MAG (CLSK6>1 AND SK280>2) SIN]: %NAME% %GREEN%* (+5 PS)%BLUE% // +2 Assassin, +3 Phoenix Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK252>2) SIN]: %NAME% %GREEN%* (+5 DCM)%BLUE% // +2 Assassin, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%* (+5 PH)%BLUE% // +2 Assassin, +3 Psychic Hammer katar
+ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%* (+5 MB)%BLUE% // +2 Assassin, +3 Mind Blast katar
+ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%* (+5 Ven)%BLUE% // +2 Assassin, +3 Venom katar
+ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%* (+5 WoF)%BLUE% // +2 Assassin, +3 Wake of Fire katar
+ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%* (+5 DS)%BLUE% // +2 Assassin, +3 Death Sentry katar
+ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%* (+5 CLS)%BLUE% // +2 Assassin, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %NAME% %GREEN%* (+5 LS)%BLUE% // +2 Assassin, +3 Lightning Sentry katar
+ItemDisplay[MAG (TABSK50=2 AND SK254=3) SIN]: %NAME% %GREEN%* (+5 TS)%BLUE% // +2 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=2 AND SK265=3) SIN]: %NAME% %GREEN%* (+5 CS)%BLUE% // +2 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=2 AND SK269=3) SIN]: %NAME% %GREEN%* (+5 CoT)%BLUE% // +2 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=2 AND SK275=3) SIN]: %NAME% %GREEN%* (+5 DF)%BLUE% // +2 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=2 AND SK280=3) SIN]: %NAME% %GREEN%* (+5 PS)%BLUE% // +2 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=2 AND SK252=3) SIN]: %NAME% %GREEN%* (+5 DCM)%BLUE% // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=2 AND SK253=3) SIN]: %NAME% %GREEN%* (+5 PH)%BLUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=2 AND SK273=3) SIN]: %NAME% %GREEN%* (+5 MB)%BLUE% // +2 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=2 AND SK278=3) SIN]: %NAME% %GREEN%* (+5 Ven)%BLUE% // +2 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%* (+5 WoF)%BLUE% // +2 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=2 AND SK276=3) SIN]: %NAME% %GREEN%* (+5 DS)%BLUE% // +2 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%* (+5 CLS)%BLUE% // +2 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK366=3) SIN]: %NAME% %GREEN%* (+5 LS)%BLUE% // +2 Trap, +3 Lightning Sentry katar
+ItemDisplay[MAG (TABSK50=3 AND SK254=2) SIN]: %NAME% %GREEN%* (+5 TS)%BLUE% // +3 Martial Arts, +2 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK265=2) SIN]: %NAME% %GREEN%* (+5 CS)%BLUE% // +3 Martial Arts, +2 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK269=2) SIN]: %NAME% %GREEN%* (+5 CoT)%BLUE% // +3 Martial Arts, +2 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=3 AND SK275=2) SIN]: %NAME% %GREEN%* (+5 DF)%BLUE% // +3 Martial Arts, +2 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=2) SIN]: %NAME% %GREEN%* (+5 PS)%BLUE% // +3 Martial Arts, +2 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=3 AND SK252=2) SIN]: %NAME% %GREEN%* (+5 DCM)%BLUE% // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=3 AND SK253=2) SIN]: %NAME% %GREEN%* (+5 PH)%BLUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=2) SIN]: %NAME% %GREEN%* (+5 MB)%BLUE% // +3 Shadow Disciplines, +2 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=2) SIN]: %NAME% %GREEN%* (+5 Ven)%BLUE% // +3 Shadow Disciplines, +2 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%* (+5 WoF)%BLUE% // +3 Trap, +2 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=2) SIN]: %NAME% %GREEN%* (+5 DS)%BLUE% // +3 Trap, +2 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%* (+5 CLS)%BLUE% // +3 Trap, +2 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=2) SIN]: %NAME% %GREEN%* (+5 LS)%BLUE% // +3 Trap, +2 Lightning Sentry katar
+ItemDisplay[MAG (TABSK50=3 AND SK254=3) SIN]: %NAME% %GREEN%* (+5 TS)%BLUE% // +3 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK265=3) SIN]: %NAME% %GREEN%* (+5 CS)%BLUE% // +3 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK269=3) SIN]: %NAME% %GREEN%* (+5 CoT)%BLUE% // +3 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=3 AND SK275=3) SIN]: %NAME% %GREEN%* (+5 DF)%BLUE% // +3 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=3) SIN]: %NAME% %GREEN%* (+5 PS)%BLUE% // +3 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=3 AND SK252=3) SIN]: %NAME% %GREEN%* (+5 DCM)%BLUE% // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=3 AND SK253=3) SIN]: %NAME% %GREEN%* (+6 PH)%BLUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=3) SIN]: %NAME% %GREEN%* (+6 MB)%BLUE% // +3 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=3) SIN]: %NAME% %GREEN%* (+6 Ven)%BLUE% // +3 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%* (+6 WoF)%BLUE% // +3 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=3) SIN]: %NAME% %GREEN%* (+6 DS)%BLUE% // +3 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%* (+6 CLS)%BLUE% // +3 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=3) SIN]: %NAME% %GREEN%* (+6 LS)%BLUE% // +3 Trap, +3 Lightning Sentry katar
+ItemDisplay[MAG (CLSK4>1 AND SK149>2) BAR]: %NAME% %GREEN%* (+2/3 BO)%BLUE% // +2 Barbarian, +3 Battle Orders Barb helm
+ItemDisplay[MAG (CLSK4>1 AND SK154>2) BAR]:%GREEN% * *  %BLUE%%NAME% %GREEN%* (+2/3 Warcry)%BLUE% // +2 Barbarian, +3 Warcry Barb helm
+ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK245>2) DRU]: %NAME% %GREEN%* (2/3 Tornado)%BLUE% // +2 Druid/Tornado, +3 Tornado Druid Pelt
+ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK234>2) DRU]: %NAME% %GREEN%* (2/3 Fissure)%BLUE% // +2 Druid/Fissure, +3 Fissure Druid Pelt
+ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK229>2) DRU]: %NAME% %GREEN%* (2/3 Molten)%BLUE% // +2 Druid/Molten Boulder, +3 Molten Boulder Druid Pelt
+ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK237>2) DRU]: %NAME% %GREEN%* (2/3 Dire Wolf)%BLUE% // +2 Druid/Dire Wolf, +3 Dire Wolf Druid Pelt
+ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK247>2) DRU]: %NAME% %GREEN%* (2/3 Grizzly)%BLUE% // +2 Druid/Grizzly, +3 Grizzly Druid Pelt
 ItemDisplay[MAG (SOCK>3 AND LIFE>89) CHEST]: %NAME% %GREEN%(Whale)%BLUE% // 4 sockets, 90+ Health Armor
-ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 Javelin Skills, 20 IAS Gloves
-ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %NAME% %GREEN%(2/20)%BLUE% // +2 tab skills, 20 IAS Gloves
-ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 tab skills, 20 IAS Gloves
-ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %NAME% %GREEN%(JMoD)%BLUE% // JMoD Monarch
-ItemDisplay[MAG ED>299 WEAPON]: %NAME% %GREEN%(300%+ED)%BLUE% // 300%+ ED Weapons
-ItemDisplay[MAG TABSK34>2 WEAPON]: %NAME% %GREEN%(+3 Warcries)%BLUE% // +3 Warcries weapon
-ItemDisplay[MAG CHSK54>0 STAFF]: %NAME% %GREEN%(Teleport)%BLUE% // Teleport charges
-ItemDisplay[MAG CHSK357>0 STAFF]: %NAME% %GREEN%(Blink)%BLUE% // Blink charges
-ItemDisplay[MAG CHSK66>0 WAND]: %NAME% %GREEN%(Amp Dmg)%BLUE% // Amplify Damage charges
-ItemDisplay[MAG CHSK86>0 WAND]: %NAME% %GREEN%(Attract)%BLUE% // Attract charges
-ItemDisplay[MAG CHSK87>0 WAND]: %NAME% %GREEN%(Decrep)%BLUE% // Decrepify charges
-ItemDisplay[MAG CHSK82>0 WAND]: %NAME% %GREEN%(Life Tap)%BLUE% // Life tap charges
-ItemDisplay[MAG CHSK91>0 WAND]: %NAME% %GREEN%(Lower Res)%BLUE% // Lower Resist charges
-ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%BLUE% // Weaken charges
+ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%* (3/20)%BLUE% // +3 Javelin Skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %NAME% %GREEN%* (2/20)%BLUE% // +2 tab skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%* (3/20)%BLUE% // +3 tab skills, 20 IAS Gloves
+ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %NAME% %GREEN%* (JMoD)%BLUE% // JMoD Monarch
+ItemDisplay[MAG ED>299 WEAPON]: %NAME% %GREEN%* (300%+ED)%BLUE% // 300%+ ED Weapons
+ItemDisplay[MAG TABSK34>2 WEAPON]: %NAME% %GREEN%* (+3 Warcries)%BLUE% // +3 Warcries weapon
+ItemDisplay[MAG CHSK54>0 STAFF]: %NAME% %GREEN%* (Teleport)%BLUE% // Teleport charges
+ItemDisplay[MAG CHSK357>0 STAFF]: %NAME% %GREEN%* (Blink)%BLUE% // Blink charges
+ItemDisplay[MAG CHSK66>0 WAND]: %NAME% %GREEN%* (Amp Dmg)%BLUE% // Amplify Damage charges
+ItemDisplay[MAG CHSK86>0 WAND]: %NAME% %GREEN%* (Attract)%BLUE% // Attract charges
+ItemDisplay[MAG CHSK87>0 WAND]: %NAME% %GREEN%* (Decrep)%BLUE% // Decrepify charges
+ItemDisplay[MAG CHSK82>0 WAND]: %NAME% %GREEN%* (Life Tap)%BLUE% // Life tap charges
+ItemDisplay[MAG CHSK91>0 WAND]: %NAME% %GREEN%* (Lower Res)%BLUE% // Lower Resist charges
+ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%* (Weaken)%BLUE% // Weaken charges
 
 // Hide Useless Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
-// Adding a failsafe to catch all non-equipment things
-// This should prevent missing of any new item codes that we don't know of
-ItemDisplay[!(ARMOR OR WEAPON OR aqv OR cqv OR (MAG (cm1 OR cm2 OR cm3 OR jew)) OR (RARE (jew)) OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
-
 
 // Unique Items
 ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
@@ -394,7 +390,7 @@ ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%RED%*%GREEN%* %NAME%%GREEN% *%RED%*%CONTINUE%
 
 //Rainbow Facet
-ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w %NAME% %PURPLE%r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
+ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w %PURPLE%F%BLUE%a%GREEN%c%YELLOW%e%RED%t
 
 //GG only when ETH
 ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %RED%*%GREEN%* %TAN%[%GRAY%ETH%TAN%] %BORDER-68%%NAME%%GREEN% *%RED%*%CONTINUE%
@@ -444,11 +440,15 @@ ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 
 //Sets worth notifying
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
-ItemDisplay[SET !ID amu]: %GREEN%*%RED%* %NAME% %RED%*%GREEN%*
+ItemDisplay[SET !ID (amu OR rin)]: %PX-84%%RED%* %NAME% %RED%*
 
 // Set Items Master
 ItemDisplay[SET CLVL<70 !ID]: %NAME%%MAP-84% // Notification and map ping for all sets until level 59
 ItemDisplay[SET CLVL>69 !ID]: %NAME% // At level 60+, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets at level 60+
+
+// Adding a failsafe to catch all non-equipment things
+// This should prevent missing of any new item codes that we don't know of
+ItemDisplay[!(ARMOR OR WEAPON OR aqv OR cqv OR (MAG (cm1 OR cm2 OR cm3 OR jew)) OR (RARE (jew)) OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
 
 // Rare Items
 ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
