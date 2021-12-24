@@ -138,7 +138,7 @@ ItemDisplay[gsv]: %PURPLE%+%PURPLE%Amethyst%WHITE%{%TAN%3 Amethyst = Flawless Am
 ItemDisplay[gzv]:  %PURPLE%+%WHITE%F%PURPLE%+ Amethyst%WHITE%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
 ItemDisplay[gzvs]:  %PURPLE%+%WHITE%F%PURPLE%+ Amethyst x%QTY%%WHITE%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst%NL%%NL%%WHITE%Shields: +24 Defense%NL%Armor/Helms: +8 Strength%NL%Weapons: +100 Attack Rating%NL%} // Stacked Flawless Amethyst
 ItemDisplay[gpv]:  %PURPLE%*%WHITE%Perf%PURPLE%* Amethyst%WHITE%%DOT-20%{%TAN%Used in Caster crafting} // Flawless Amethyst
-ItemDisplay[gpvs]:  %PURPLE%*%WHITE%PERF%PURPLE%* Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
+ItemDisplay[gpvs]:  %PURPLE%*%WHITE%Perf%PURPLE%* Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
 
 ItemDisplay[gcw]: %WHITE%+%WHITE%Chipped %WHITE%Diamond%WHITE%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
 ItemDisplay[gfw]: %WHITE%+%WHITE%Flawed %WHITE%Diamond%WHITE%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
@@ -643,6 +643,7 @@ ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
 ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97%// Large Charms
 ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97%// Grand Charms
+ItemDisplay[MAG ID cm3 ILVL>90]: %NAME%%GREEN% [91+]
 ItemDisplay[MAG !ID CIRC]: %NAME% // All unidentified Circlets
 ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
 ItemDisplay[MAG ID jew]: %NAME%%DOT-97%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
