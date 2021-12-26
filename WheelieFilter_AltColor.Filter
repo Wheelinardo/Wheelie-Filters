@@ -12,7 +12,7 @@
 //Color Changes
 ItemDisplay[UNI !ID]: %PURPLE%%NAME%%CONTINUE%
 ItemDisplay[!ID (cm1 OR cm2 OR cm3)]: %GREEN%%NAME%
-ItemDisplay[!ID SET]: %GREEN%%NAME% %CONTINUE% 
+ItemDisplay[!ID SET]: %GREEN%%NAME%%CONTINUE% 
 
 // Quest Items
 ItemDisplay[bks]: %NAME%%MAP-58%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
